@@ -4,7 +4,7 @@ This project is part of a 2-day challenge where the goal is to teach high school
 
 ## Demo Video
 
-Check out our project demo video:
+Check out the project demo video for my part:
 
 [![Climate Action SDG Project Demo](https://img.youtube.com/vi/GNq4MomVSeY/0.jpg)](https://youtu.be/GNq4MomVSeY)
 
