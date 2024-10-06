@@ -2,6 +2,14 @@
 
 This project is part of a 2-day challenge where the goal is to teach high schoolers about one of the Sustainable Development Goals (SDGs). Our focus is specifically on **SDG 13: Climate Action**. The website includes quizzes, visualizations of climate data, mini-courses, and an RSS feed showing thumbnails and headlines related to SDG articles from NASA.
 
+## Demo Video
+
+Check out our project demo video:
+
+[![Climate Action SDG Project Demo](https://img.youtube.com/vi/GNq4MomVSeY/0.jpg)](https://youtu.be/GNq4MomVSeY)
+
+Click on the image above to watch the video on YouTube.
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
