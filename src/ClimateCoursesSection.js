@@ -11,8 +11,9 @@ import slide2 from './assets/slide2.png';
 import slide3 from './assets/slide3.png';
 import slide21 from './assets/slide21.png';
 import slide22 from './assets/slide22.png';
-import placeholderImg from './assets/slide1.png'; // Add a placeholder image
-
+import sustainable from './assets/sustainable.png'; 
+import advocacy from './assets/advocacy.png';
+import water from './assets/water.png';
 Modal.setAppElement('#root');
 
 const CourseCard = ({ title, description, duration, difficulty, startCourse, imageUrl }) => (
@@ -164,7 +165,7 @@ export default function ClimateCoursesSection() {
       description: "Learn how to implement sustainable practices in your daily life.",
       duration: "20 min",
       difficulty: "Intermediate",
-      imageUrl: renewableImg,
+      imageUrl: sustainable,
       slides: [
         { image: slide21, text: "Simple changes can make a big difference..." },
         { image: slide22, text: "Consider energy efficiency and waste reduction." }
@@ -175,7 +176,7 @@ export default function ClimateCoursesSection() {
       description: "Understand the role of policies and advocacy in combating climate change.",
       duration: "30 min",
       difficulty: "Advanced",
-      imageUrl: renewableImg,
+      imageUrl: advocacy,
       slides: [
         { image: slide1, text: "Policies can drive change at local and global levels..." },
         { image: slide2, text: "Advocacy helps to influence decision-makers." }
@@ -186,7 +187,7 @@ export default function ClimateCoursesSection() {
       description: "Discover effective methods for conserving water in various settings.",
       duration: "25 min",
       difficulty: "Beginner",
-      imageUrl: renewableImg,
+      imageUrl: water,
       slides: [
         { image: slide21, text: "Water-saving techniques can be applied at home..." },
         { image: slide22, text: "Learn about rainwater harvesting and xeriscaping." }
