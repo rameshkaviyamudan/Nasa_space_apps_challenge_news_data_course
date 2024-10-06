@@ -1,0 +1,19 @@
+/* components/ui/button.css */
+.button {
+  @apply inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors 
+  focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 
+  disabled:pointer-events-none disabled:opacity-50;
+}
+
+.button-default {
+  @apply bg-gray-100 text-gray-900 hover:bg-gray-200;
+}
+
+.button-dark {
+  @apply bg-[#12141A] text-white hover:bg-gray-800;
+}
+
+/* For the "Read More" buttons */
+.button-read-more {
+  @apply px-4 py-2 bg-[#12141A] text-white rounded-lg hover:bg-gray-800;
+}
