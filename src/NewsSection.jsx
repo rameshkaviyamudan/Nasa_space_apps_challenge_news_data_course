@@ -69,7 +69,10 @@ export const NewsSection = () => {
               <div dangerouslySetInnerHTML={{ __html: truncateText(item.description) }} />
             </CardContent>
             <CardFooter>
-              <Button onClick={() => window.open(item.link, '_blank')}>
+              <Button 
+                onClick={() => window.open(item.link, '_blank')} 
+                className="underline"
+              >
                 Read More
               </Button>
             </CardFooter>
